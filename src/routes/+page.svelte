@@ -5,7 +5,7 @@
   
   async function createEntry() {
     try {
-      const response = await fetch('/api/generate');
+      const response = await fetch('/functions/api/generate');
       const data = await response.json();
       entries = [...entries, data];
     } catch (error) {
