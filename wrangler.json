@@ -2,7 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "impel",
   "compatibility_date": "2025-02-04",
-  "pages_build_output_dir": ".svelte-kit\\cloudflare",
+  "pages_build_output_dir": ".svelte-kit/cloudflare",
   "observability": {
     "enabled": true
   },
