@@ -13,8 +13,8 @@ export async function GET(context) {
       
       // Return the created entry
       return json({
-        uuid,
-        randomValue
+        key: uuid,
+        value: randomValue
       });
     } catch (error) {
       return json(
